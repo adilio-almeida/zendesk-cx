@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  overflow-y: auto;
+}
+
+.input {
+  background-color: transparent;
+  color: rgb(47, 57, 65);
+}
+
+.button {
+  background-color: rgb(47, 57, 65) !important;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  padding: 5px;
+}
+
+.button:hover {
+  background-color: gray !important;
+}
+

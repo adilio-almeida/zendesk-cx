@@ -1,0 +1,25 @@
+{
+  "name": "Test APP",
+  "author": {
+    "name": "Adilio Manassés",
+    "email": "adiliomanasses1234@gmail.com",
+    "url": "https://eteg.com.br"
+  },
+  "defaultLocale": "pt",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": "assets/iframe.html"
+    }
+  },
+  "parameters": [
+    {
+      "name": "apiBaseUrl",
+      "type": "text",
+      "required": false,
+      "default": "https://yourAPIEnvURL/requests"
+    }
+  ],
+  "version": "1.4",
+  "frameworkVersion": "2.0"
+}
